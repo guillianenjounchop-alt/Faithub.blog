@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: right;
+}
+
+.handwritten-heading1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: gold;
+}
+
+.handwritten-heading2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: brown;
+}
+
+.verse-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  width: 90%;
+  height: 70%;
+  max-width: 90%;
+  max-height: 70%;
+}
+
+.verse-popup.show {
+  display: block;
+}
+
+/* rest of your CSS code */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+}
+#amen-btn {
+  display: none; /* hidden initially */
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#verse-status {
+  font-style: italic;
+  color: #555;
+}
+
+.hero {
+  text-align: center;
+  padding: 2em;
+  background: #f4f4f4;
+}
+.handwritten-heading1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #333;
+}
+
+section {
+  padding: 2em;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-player{
+  w
+}
+.video-content {
+  display: flex;
+  gap: 20px;
+}
+
+.video-description {
+  flex-basis: 30%;
+}
+
+.video-player {
+  flex-basis: 70%;
+}
+
+.video-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.video-actions button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.video-actions button:hover {
+  background-color: #3e8e41;
+}
+.social-share {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.social-share__title {
+  margin: 0 0 1rem 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.social-share__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.social-btn svg {
+  flex-shrink: 0;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.social-btn--whatsapp {
+  background: #25D366;
+}
+
+.social-btn--facebook {
+  background: #1877F2;
+}
+
+.social-btn--twitter {
+  background: #000;
+}
+
+.social-btn--copy {
+  background: #6c757d;
+}
+
+@media (max-width: 480px) {
+  .social-share__buttons {
+    flex-direction: column;
+  }
+  
+  .social-btn {
+    justify-content: center;
+  }
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
